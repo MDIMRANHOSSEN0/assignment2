@@ -1,0 +1,299 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+header {
+    padding-top: 50px;
+    padding-left: 90px;
+}
+
+/* top part style start */
+
+.section-title {
+    font-size: 3em;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.top-link-button {
+    text-decoration: none;
+    color: white;
+    background-color: #ff1a75;
+    border-radius: 14px;
+    padding: 5px 20px;
+}
+
+.conteiner {
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 45px;
+    padding-bottom: 90px;
+
+}
+
+/* ======>>> Media Q====== */
+
+@media (max-width:668px) {
+    header {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    main .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteiner .top-part {
+        text-align: center;
+    }
+
+    .conteiner .camera {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* ======>>> Media Q ====== */
+
+.title {
+    text-align: center;
+
+
+}
+
+/* top part style end */
+
+/* Popular part style start */
+.conteiner2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 45px;
+}
+
+
+
+
+.Populars {
+    border: 5px solid wheat;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: wheat;
+}
+
+.Popular-info {
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.Popular-info p {
+    margin-top: 3px;
+}
+
+.fa-star.filled {
+    color: orange;
+    font-size: 12px;
+}
+
+.fa-star-half-alt {
+    color: orange;
+    font-size: 12px;
+}
+
+.conteiner2 a{
+    text-decoration: none;
+    color: #ff1a75;
+    text-align: right;
+}
+
+/* ======>>> Media Q ====== */
+
+@media (max-width:668px) {
+    main .conteiner2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}
+
+/* ======>>> Media Q ====== */
+
+
+/* Popular part style end */
+
+/* input style start */
+.contacts {
+    padding-left: 90px;
+    padding-bottom: 40px;
+}
+
+/* footer start  */
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    background-color: rgb(9, 7, 48);
+    color: blanchedalmond;
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0px;
+}
+
+header {
+    padding-top: 50px;
+    padding-left: 90px;
+}
+
+/* top part style start */
+
+.section-title {
+    font-size: 3em;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.top-link-button {
+    text-decoration: none;
+    color: white;
+    background-color: #ff1a75;
+    border-radius: 14px;
+    padding: 5px 20px;
+}
+
+.conteiner {
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 45px;
+    padding-bottom: 90px;
+
+}
+
+/* ======>>> Media Q====== */
+
+@media (max-width:668px) {
+    header {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    main .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .conteiner .top-part {
+        text-align: center;
+    }
+
+    .conteiner .camera {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* ======>>> Media Q ====== */
+
+.title {
+    text-align: center;
+
+
+}
+
+/* top part style end */
+
+/* Popular part style start */
+.conteiner2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 45px;
+}
+
+
+
+
+.Populars {
+    border: 5px solid wheat;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: wheat;
+}
+
+.Popular-info {
+    font-size: 12px;
+    margin-top: -15px;
+}
+
+.Popular-info p {
+    margin-top: 3px;
+}
+
+.fa-star.filled {
+    color: orange;
+    font-size: 12px;
+}
+
+.fa-star-half-alt {
+    color: orange;
+    font-size: 12px;
+}
+
+.conteiner2 a{
+    text-decoration: none;
+    color: #ff1a75;
+    text-align: right;
+}
+
+/* ======>>> Media Q ====== */
+
+@media (max-width:668px) {
+    main .conteiner2 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+}
+
+/* ======>>> Media Q ====== */
+
+
+/* Popular part style end */
+
+/* input style start */
+.contacts {
+    padding-left: 90px;
+    padding-bottom: 40px;
+}
+
+/* footer start  */
+footer {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+    background-color: rgb(9, 7, 48);
+    color: blanchedalmond;
+}
